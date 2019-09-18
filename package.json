@@ -1,0 +1,9 @@
+{
+  "name": "alphonse-theme-template",
+  "version": "1.0.0",
+  "description": "A Wordpress theme template.",
+  "main": "index.js",
+  "repository": "https://github.com/grardov/alphonse-theme-template.git",
+  "author": "Gerardo Valencia <grdvalencia.r@gmail.com>",
+  "license": "MIT"
+}
