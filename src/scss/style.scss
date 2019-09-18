@@ -1,3 +1,9 @@
+@import 'base/style';
+@import 'components/style';
+@import 'layouts/style';
+@import 'pages/style';
+@import 'utils/style';
+
 * {
   margin: 0;
   padding: 0;
