@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "A Wordpress theme template.",
   "main": "index.js",
+  "scripts": {
+    "dev": "webpack --watch --mode development",
+    "build": "webpack --mode development",
+    "dist": "webpack --watch --mode development"
+  },
   "repository": "https://github.com/grardov/alphonse-theme-template.git",
   "author": "Gerardo Valencia <grdvalencia.r@gmail.com>",
   "license": "MIT",
