@@ -10,7 +10,7 @@ module.exports = {
     index: './src/index.js'
   },
   output: {
-    filename: '[name].bundle.js',
+    filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
   module: {
@@ -71,7 +71,7 @@ module.exports = {
     }),
     new BrowserSyncPlugin({
       files: '**/*.php',
-      proxy: 'http://vivente.test'
+      proxy: 'http://alphonse-theme-template.test'
     })
   ],
   optimization: {
